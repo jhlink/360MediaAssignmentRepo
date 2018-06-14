@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pano>
+    <version filemodel="2.0" application="Autopano Video 3.0.0" id="0"/>
+    <editorOptions initialAnchors="15" autoCCUpdate="1" autoCCAutoLevel="1" crossStayActivated="1" useRelativePath="1"/>
+    <finalRender basename="%a" path="%p" fileType="jpg" fileCompression="12" fileDepth="8" interpolationMode="2" blendMode="2" outputPercent="100" nCols="4980" nRows="2490" dpi="72" overwrite="1" fileEmbedAll="0" removeAlpha="0" outputPanorama="1" outputLayers="0" outputPictures="0" multibandLevel="-2" alphaDiamond="0" exposureWeights="0" cutting="2" graphcutGhostFocal="0" bracketedGhost="0"/>
+    <layers>
+        <layer name="N_0" ouput="1">
+            <images>
+                <image index="0" preview="1" output="1"/>
+                <image index="1" preview="1" output="1"/>
+            </images>
+        </layer>
+    </layers>
+    <colorHisto hmin="0" hmax="1.00391" husermin="0" husermax="1" rusermin="0" rusermax="1" gusermin="0" gusermax="1" busermin="0" busermax="1" hgamma="1" rgamma="1" ggamma="1" bgamma="1"/>
+    <optim rms="2.81052" siftQuality="2" siftCpNumber="100" ransacModel="3">
+        <matLGLink>
+            <link> 0 0 1 </link>
+        </matLGLink>
+        <options automaticSteps="0" automaticSettings="1" focalHandling="-1" distoHandling="-1" offsetsHandling="-1" multipleVPHandling="0" yprScope="0" focalScope="2" distoScope="2" offsetScope="2" hScope="0" optLG="1" useGO="1" matrixLG="0" gridLG="0" optFinal1="1" optLens1="1" optLens2="1" stepGeomAnalysis="1" cleanPoints="1" cleanLinks="1" cbpMode="0" cbpThreshold="5" cbpLimit="50" cbpLinkThreshold="40" matLGMode="1" matLGRow="1" matLGStack="1" matLG360="0" matLGOverlapping="25" gaMode="0" calibratedRig="0"/>
+    </optim>
+    <colorCorrection eqMode="1" eqPerLayer="1" colorDtScaler="1"/>
+    <exposureWeighting enabled="0" tone="0.5" dark="0.5" light="0.5"/>
+    <projection fitMode="2" type="0" xnMin="0" xnMax="1" ynMin="0" ynMax="1">
+        <params/>
+    </projection>
+    <stacks>
+        <stack> 0 </stack>
+        <stack> 1 </stack>
+    </stacks>
+    <images>
+        <image>
+            <def filename="IndiaStreetRide-BackView.MP4.jpg" focal35mm="15" lensModel="1" fisheyeRadius="1762.1" fisheyeCoffX="0" fisheyeCoffY="0" speed="0" aperture="0"/>
+            <camera model="1" yaw="-0.393319" pitch="-0.986128" roll="0.0767399" f="5.23599" k1="0.874565" k2="-0.747497" k3="0" offset_x="-5.48443" offset_y="-1.78475" fisheye_radius="1762.1" optimizationGroup="0"/>
+            <color type="15" values="2.20 2.20 1.483831 -0.103070 0.979034 1.014864 -0.292796 -0.013258 2.266640" version="2"/>
+        </image>
+        <image>
+            <def filename="IndiaStreetRide-FrontView.MP4.jpg" focal35mm="15" lensModel="1" fisheyeRadius="1762.1" fisheyeCoffX="0" fisheyeCoffY="0" speed="0" aperture="0"/>
+            <camera model="1" yaw="2.72186" pitch="1.01736" roll="-0.0959868" f="5.23599" k1="0.874565" k2="-0.747497" k3="0" offset_x="-5.48443" offset_y="-1.78475" fisheye_radius="1762.1" optimizationGroup="0"/>
+            <color type="15" values="2.20 2.20 0.675017 -0.103070 1.020243 0.984028 -0.292796 -0.013258 2.266640" version="2"/>
+        </image>
+    </images>
+    <thumbnail width="0" height="0" depth="0" data=""/>
+</pano>
