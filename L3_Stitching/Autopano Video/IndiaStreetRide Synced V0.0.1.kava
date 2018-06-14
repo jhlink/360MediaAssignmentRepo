@@ -4,7 +4,7 @@
         <video file="../Raw Footage/IndiaStreetRide/IndiaStreetRide-BackView.MP4" dt="1081" stereoAssignment="0"/>
         <video file="../Raw Footage/IndiaStreetRide/IndiaStreetRide-FrontView.MP4" dt="0" stereoAssignment="0"/>
     </videos>
-    <timeLine current="30137" start="0" end="177096" selectionStart="30022" selectionEnd="44779"/>
+    <timeLine current="30075" start="29843" end="177096" selectionStart="29881" selectionEnd="53763"/>
     <options>
         <stitch range="0" samples="5"/>
         <color interval="5000"/>
@@ -50,9 +50,9 @@
         </transition>
     </projectionTransitions>
     <parallaxCompensationTransitions/>
-    <output individualVideos="0" frameNumbering="0" type="1" audio="0" stereoRenderMode="0" enableStereoMode="0" stereoInterocularNormalized="1" stereoConvergenceDegree="0"/>
+    <output file="../Raw Footage/IndiaStreetRide/IndiaStreetRide-.kava.mp4" individualVideos="0" frameNumbering="0" type="1" audio="0" stereoRenderMode="0" enableStereoMode="0" stereoInterocularNormalized="1" stereoConvergenceDegree="0"/>
     <directorsCut enabled="0" sizeRatio="2"/>
-    <encodingRules presets="0;1;2;3;" quality="1" profile="2" framerateMode="1" standard="-1" framerate="0" vbitrate="0" abitrate="0" aspectRatio="1" timecodeSetting="0" timecodeReference="0" timecodeDropFlag="0" timecodeBurnin="0"/>
+    <encodingRules presets="5;" quality="1" profile="2" framerateMode="0" standard="1" framerate="25" vbitrate="24000000" abitrate="160000" aspectRatio="1" timecodeSetting="0" timecodeReference="0" timecodeDropFlag="0" timecodeBurnin="0"/>
     <pano>
         <version filemodel="2.0" application="Autopano Video 3.0.0" id="0"/>
         <editorOptions initialAnchors="15" autoCCUpdate="1" autoCCAutoLevel="1" crossStayActivated="1" useRelativePath="1"/>
