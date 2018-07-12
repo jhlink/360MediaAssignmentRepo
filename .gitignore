@@ -3,3 +3,6 @@ Raw\ Footage
 Exports
 *.mp3
 *.mp4
+metadata/
+Temp/
+ShaderCache/
