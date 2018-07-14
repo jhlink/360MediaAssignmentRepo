@@ -11,7 +11,7 @@ public class VideoControl : MonoBehaviour {
 
     void Start () {
         videoPlayer = GetComponent<UnityEngine.Video.VideoPlayer> ();
-		audioSource = gameObject.AddComponent<AudioSource>();
+		audioSource = GetComponent<UnityEngine.AudioSource> ();
 
 
         if (videoPlayer.clip != null)
