@@ -10,8 +10,6 @@ public class VideoControl : MonoBehaviour {
     [SerializeField]
     private AudioSource audioSource;
 
-
-
     void Start () {
         videoPlayer = GetComponent<UnityEngine.Video.VideoPlayer> ();
 
@@ -36,4 +34,14 @@ public class VideoControl : MonoBehaviour {
         }
 
     }
+
+	public void toggleVideoState() {
+      if (videoPlayer.isPlaying) {
+        videoPlayer.Pause ();
+      } else {
+        videoPlayer.Play();
+        audioSource.Play();
+      }
+	}
+		
 }
