@@ -8,3 +8,6 @@ Temp/
 ShaderCache/
 Library/
 *.csproj
+*.apk
+*.userprefs
+*Temp/
