@@ -11,3 +11,4 @@ Library/
 *.apk
 *.userprefs
 *Temp/
+obj/
